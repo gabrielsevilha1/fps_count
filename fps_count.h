@@ -1,8 +1,8 @@
 #include<stdio.h>
 #include<time.h>
 
-double current_time = time(0);
-double last_time = time(0);
+double current_time = 0;
+double last_time = 0;
 int fps = 0;
 
 void printfps(){
